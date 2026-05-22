@@ -1,0 +1,30 @@
+# Samuel & Audrey YouTube Transcripts EN Corpus, 2012–2026
+
+This dataset contains 1,397 full English YouTube transcript records and 233,285 cue-level transcript segment records from the Samuel and Audrey channel.
+
+Canonical dataset:
+https://huggingface.co/datasets/samuelandaudreymedianetwork/samuel-and-audrey-youtube-transcripts-en
+
+Zenodo DOI:
+https://doi.org/10.5281/zenodo.18665704
+
+YouTube channel:
+https://youtube.com/@samuelandaudrey
+
+Recommended files:
+- samuel-and-audrey-youtube-transcripts-en.jsonl
+- samuel-and-audrey-youtube-transcripts-en.csv
+- samuel-and-audrey-youtube-transcripts-en_segments.jsonl
+- DATA_DICTIONARY.md
+- SCHEMA.json
+- CITATION.cff
+
+Records:
+- 1,397 youtube_transcript records
+- 233,285 youtube_transcript_segment records
+
+License:
+CC BY-NC 4.0
+
+Contact:
+nomadicsamuel@gmail.com
