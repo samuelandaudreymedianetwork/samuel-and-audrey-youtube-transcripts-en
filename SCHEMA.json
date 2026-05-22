@@ -1,113 +1,583 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Samuel & Audrey — YouTube Transcripts (EN) Corpus (2012–2026)",
-  "type": "object",
-  "additionalProperties": true,
-  "properties": {
-    "caption_source": {
-      "type": [
-        "string"
+  "title": "Samuel & Audrey YouTube Transcripts EN Corpus, 2012–2026",
+  "description": "English YouTube transcript corpus from the Samuel and Audrey channel, including full transcript and cue-level segment records.",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "record_id": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "record_type": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "id": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "dataset": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "source_channel": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "source_platform": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "channel_url": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "video_id": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "video_date": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "youtube_title": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "view_count": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "tags": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "tags_list": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "lang": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "channel": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "domain": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "caption_source": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "caption_track_kind": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "text": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "text_with_breaks": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "srt": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "original_filename": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "content_hash": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "record_id",
+        "record_type",
+        "video_id",
+        "title",
+        "text"
       ]
     },
-    "caption_track_kind": {
-      "type": [
-        "string"
-      ]
-    },
-    "channel": {
-      "type": [
-        "string"
-      ]
-    },
-    "content_hash": {
-      "type": [
-        "string"
-      ]
-    },
-    "domain": {
-      "type": [
-        "string"
-      ]
-    },
-    "id": {
-      "type": [
-        "string"
-      ]
-    },
-    "lang": {
-      "type": [
-        "string"
-      ]
-    },
-    "original_filename": {
-      "type": [
-        "string"
-      ]
-    },
-    "published_at": {
-      "type": [
-        "string"
-      ]
-    },
-    "source": {
-      "type": [
-        "string"
-      ]
-    },
-    "srt": {
-      "type": [
-        "string"
-      ]
-    },
-    "tags": {
-      "type": [
-        "string"
-      ]
-    },
-    "tags_list": {
-      "type": [
-        "array"
-      ]
-    },
-    "text": {
-      "type": [
-        "string"
-      ]
-    },
-    "text_with_breaks": {
-      "type": [
-        "string"
-      ]
-    },
-    "title": {
-      "type": [
-        "string"
-      ]
-    },
-    "url": {
-      "type": [
-        "string"
-      ]
-    },
-    "video_date": {
-      "type": [
-        "string"
-      ]
-    },
-    "video_id": {
-      "type": [
-        "string"
-      ]
-    },
-    "view_count": {
-      "type": [
-        "integer"
-      ]
-    },
-    "youtube_title": {
-      "type": [
-        "string"
+    {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "record_id": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "record_type": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "segment_id": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "transcript_id": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "dataset": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "source_channel": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "source_platform": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "channel_url": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "video_id": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "url": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "published_at": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "video_date": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "title": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "start_ms": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "end_ms": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "text": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "language": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "lang": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "channel": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "domain": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        },
+        "license": {
+          "type": [
+            "string",
+            "number",
+            "integer",
+            "boolean",
+            "array",
+            "object",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "record_id",
+        "record_type",
+        "video_id",
+        "transcript_id",
+        "text"
       ]
     }
-  }
+  ]
 }
